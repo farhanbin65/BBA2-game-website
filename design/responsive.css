@@ -1,5 +1,6 @@
 @media screen and (max-width:426px) {
     /* nav bar */
+    
     .nav-container{
         flex-direction: column;
 
@@ -15,5 +16,17 @@
     }
 
     /* play like the GOAT */
-    
+
+    .play-goat{
+        flex-direction: column;
+    }
+    .goat-text{
+        width: 400px;
+        margin-left: 20px;
+        margin-top: 140px; 
+    }
+    #goat-img{
+        max-width: 380px;
+        margin: 30px 5px;
+    }
 }

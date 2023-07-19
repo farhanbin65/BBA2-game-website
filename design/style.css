@@ -80,10 +80,7 @@ body{
     flex-shrink: 0;
     margin-left: 100px;
     column-gap: normal;
-    margin-top: 120px;
-
-   
-   
+    margin-top: 120px; 
 }
 .goat-img{
     width: 1750;
