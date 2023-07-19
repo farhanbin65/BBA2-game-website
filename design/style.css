@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* shared styles */
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+.gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 
 /* nav bar */
 .nav-container{
@@ -61,4 +70,61 @@ body{
 }
 .follow img{
     width: 15%;
+}
+/* play like the GOAT */
+.play-goat{
+    display: flex;
+}
+.goat-text{
+    width: 480px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    column-gap: normal;
+    margin-top: 120px;
+
+   
+   
+}
+.goat-img{
+    width: 1750;
+}
+.goat-text h4{
+    color: #0B0223;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.goat-text h1{
+    font-size: 75px;
+   font-weight: 800;
+   margin-top: 0px;
+   margin-bottom: 30px;
+}
+.goat-text p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.btn-1{
+    color: #fff;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-2{
+    background: #4EC5F7;
+    color: #fff;
+    padding: 21px 40px;
+    border-radius: 48px;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }

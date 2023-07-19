@@ -1,4 +1,5 @@
 @media screen and (max-width:426px) {
+    /* nav bar */
     .nav-container{
         flex-direction: column;
 
@@ -12,4 +13,7 @@
     .nav-item-container a{
         margin-top: 20px;
     }
+
+    /* play like the GOAT */
+    
 }
