@@ -159,3 +159,25 @@ body{
     font-weight: 500;
     width: 342px;
 }
+
+/* plays instatly */
+.play-instantly{
+    display: flex;
+    gap: 250px;
+}
+.pi-text{
+    width: 353px;
+    margin-left: 180px;
+    text-align: right;
+    padding-top: 300px;
+}
+.play-instantly h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.play-instantly p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
