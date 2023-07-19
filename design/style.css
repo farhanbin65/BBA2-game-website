@@ -125,3 +125,37 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+ /* online games  */
+ .online-games{
+   text-align: center;
+ }
+ .og-title{
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 80px auto 0px;
+ }
+ .og-discription{
+    margin-top: 10px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+ }
+.grid-container{
+    display: grid;
+    max-width: 1400px;
+    margin: 50px auto 0px;
+    min-height: 400px;
+    grid-template-columns: repeat(4,1fr);
+}
+.single-item img{
+    width: 280px;
+    justify-content: space-around;  
+}
+.single-item p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    width: 342px;
+}

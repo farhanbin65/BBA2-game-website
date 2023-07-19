@@ -29,4 +29,12 @@
         max-width: 380px;
         margin: 30px 5px;
     }
+
+    /* online games */
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single-item p{
+        margin-left: 25px;
+    }
 }
