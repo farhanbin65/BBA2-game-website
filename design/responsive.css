@@ -37,4 +37,28 @@
     .single-item p{
         margin-left: 25px;
     }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .pi-text{
+       text-align: center;
+       margin: 20px auto;
+       padding-top: 0px;
+       padding-bottom: 0px;
+    }
+    .pi-img{
+        margin-left: 80px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #big{
+        width: 300px;
+    }
+    #small{
+        width: 150px;
+        position: relative;
+        bottom: 150px;
+        right: 40px;
+        
+    }
 }
