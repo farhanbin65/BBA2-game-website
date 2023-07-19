@@ -160,15 +160,35 @@ body{
     grid-template-columns: repeat(4,1fr);
 }
 .single-item img{
-    width: 280px;
+    width: 260px;
     justify-content: space-around;  
 }
 .single-item p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
-    width: 342px;
+    width: 320px;
 }
+
+/* hover */
+#container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    max-width: 40px;
+  }
+  
+  #container:hover .play-button {
+    opacity: 1;
+  }
 
 /* plays instatly */
 .play-instantly{
