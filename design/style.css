@@ -226,37 +226,38 @@ body{
 }
 
 /* buttons */
-.nine-buttons{
+.nine-buttons > div{
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    max-width: 1200px;
-    column-gap: 10px;
-    align-items: center;
-    gap: 40px;
-    align-items: center;
-    margin-left: 70px;
-   
 }
-.nine-buttons div{
+.n-buttons{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-  
-}
-.nine-buttons p{
-    color: #0B0223;
-    font-size: 18px;
-    font-weight: 600;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    gap: 5px;   
+}
+.line-1{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.line-2{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .nine-buttons img{
-    width: 50px;
-    height: 50px;
-
+    width: 40px;
 }
+/* hover */
+.n-buttons:hover{
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+}
+
 
 
 /* footer */
